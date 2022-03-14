@@ -14,50 +14,68 @@
 </head>
 <body>
     <div class="main">
-
         <nav class="nav">
             <a href=""><svg class="icon icon--primary">
                 <use xlink:href="images/sprite.svg#apple"></use>
                 </svg>
             </a>
-            <div classs="nav__icon">
-                <img src="images/search.svg" alt="">
-                <img class="line" src="images/line.png" alt="">  
-                <img src="images/shopping_bag.svg" alt="">
-            </div>    
-        </nav>  
-        <section class="heading">
-            <h1> <span class="bold">The Perfect Moment</span> 
-                Between Past And Future.</h1>        
-        </section class="btn">
-        <button class="btn">Buy now</button>
-        <section class="Watches">
-            <img class="main_watch" src="images/watch 1.png" alt="">
-            <img class="colorind" src="images/color_indicator.svg" alt="">
-        </section>
-    </div>
-    <footer class="footer  collapsible collapsible--expanded" >
-            <a href=""> <img src="images/nav_menu.svg" alt="">
-            </svg> </a>
-            <ul class="collapsible__content" >
+            <ul class="nav_content">
                 <a class="nav__items" href="#"><li>Mac</li></a>
                 <a class="nav__items" href="#"><li>iphone</li></a>
                 <a class="nav__items" href="#"><li>ipad</li></a>
                 <a class="nav__items" href="#"><li>iwatch</li></a>
                 <a class="nav__items" href="#"><li>support</li></a>
-            </ul> 
-            <div class>
-                <svg class="icon--secondary icon__size icon__side">
-                    <use xlink:href="images/sprite.svg#facebook"></use>
-                </svg>
-                <svg class="icon--secondary icon__size icon__side">
-                    <use xlink:href="images/sprite.svg#twitter"></use>
-                </svg>
-                <svg class="icon--secondary icon__size icon__side">
-                    <use xlink:href="images/sprite.svg#linkedin"></use>
-                </svg>
-            </div>
+             </ul>
+             <div class="search_extend">
+                 <div class="search_boundary">
+                     <input class="search_input"
+                       type="text"
+                       class="input"
+                       placeholder="Search here"
+                     />
+                     <img class="img_s" src="images/search.svg" alt="">
+                     
+                </div >
+                 <img class="line" src="images/line.png" alt="">  
+                 <img class="icon__size" src="images/shopping_bag.svg" alt="">
+                </div>
+            <div class="nav__icon">
+                <img src="images/search.svg" alt="">
+                <img class="line" src="images/line.png" alt="">  
+                <img src="images/shopping_bag.svg" alt="">
+            </div>    
+        </nav>  
+        <div class="center">
+            <section class="heading">
+                <h1> <span class="bold">The Perfect Moment</span> 
+                    Between Past And Future.</h1>        
+            </section class="btn">
+            <button class="btn">Buy now</button>
+            <section class="Watches">
+                <img class="main_watch" src="images/watch 1.png" alt="">
+                <img class="colorind" src="images/color_indicator.svg" alt="">
+            </section>
+        </div>
+    </div>
+    <footer class="footer" >
+        <div class="collapsible collapsible--expanded">
+            <header class="collapsible__header">
+                <img src="images/nav_menu.svg" alt=""> 
+            </header>
+        </div>
+         <div class="icon_social">
+            <svg class="icon--secondary icon__size icon__side">
+                <use xlink:href="images/sprite.svg#facebook"></use>
+            </svg>
+            <svg class="icon--secondary icon__size icon__side">
+                <use xlink:href="images/sprite.svg#twitter"></use>
+            </svg>
+            <svg class="icon--secondary icon__size icon__side">
+                <use xlink:href="images/sprite.svg#linkedin"></use>
+            </svg>
+        </div>
     </footer>
+      
     <script src="js/main.js"></script>
 </body>
 </html>
