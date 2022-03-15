@@ -16,8 +16,6 @@ body {
   line-height: 1.5;
   font-size: 1.8rem;
   color: white;
-  border-radius: 0px 0px 25px 25px;
-  background: linear-gradient(294.28deg, #c8dce6 0%, #b6ccda 100%);
 }
 h1 {
   font-size: 3.2rem;
@@ -36,27 +34,10 @@ a {
 
 @media screen and (min-width: 1024px) {
   h1 {
-    font-size: 6rem;
+    font-size: 6.4rem;
   }
 }
 
-/*Layout*/
-.main {
-  border-radius: 0px 0px 25px 25px;
-  overflow: hidden;
-  height: 825px;
-}
-@media screen and (min-width: 1600px) {
-  .footer {
-    height: 96vh;
-  }
-}
-@media screen and (min-width: 1024px) {
-  body {
-    flex-direction: row-reverse;
-    justify-content: left;
-  }
-}
 /* icons */
 
 .icon {
@@ -185,6 +166,24 @@ a {
     padding-bottom: 5px;
   }
 }
+/*Layout*/
+.main {
+  border-radius: 25px 0px 0px 25px;
+  overflow: hidden;
+  height: 825px;
+  background: linear-gradient(294.28deg, #c8dce6 0%, #b6ccda 100%);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    flex-direction: row-reverse;
+    justify-content: left;
+  }
+  .main {
+    height: 100vh;
+    width: 100vw;
+  }
+}
 
 /* heading */
 
@@ -197,7 +196,7 @@ a {
     display: flex;
     flex-direction: column;
     min-width: 680px;
-    padding-top: 80px;
+    padding-top: 50px;
   }
   .center {
     display: flex;
@@ -234,8 +233,8 @@ a {
     margin-right: 50px;
   }
   .main_watch {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   .main_watch_area {
     display: flex;
@@ -244,7 +243,7 @@ a {
   }
   .desktop_watches {
     display: flex;
-    padding: 70px 0 0 15px;
+    padding: 50px 0 0 15px;
     width: 415px;
     justify-content: space-between;
   }
