@@ -118,7 +118,7 @@ a {
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1080px) {
   .nav__icon {
     display: none;
   }
@@ -126,6 +126,7 @@ a {
     display: flex;
     margin-bottom: 15px;
     align-items: flex-end;
+    padding-left: 0;
   }
   .nav__items {
     list-style-type: none;
