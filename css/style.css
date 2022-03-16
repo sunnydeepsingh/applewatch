@@ -170,7 +170,8 @@ a {
 .main {
   border-radius: 25px 0px 0px 25px;
   overflow: hidden;
-  height: 825px;
+  min-width: 414px;
+  height: 850px;
   background: linear-gradient(294.28deg, #c8dce6 0%, #b6ccda 100%);
 }
 
@@ -182,6 +183,7 @@ a {
   .main {
     height: 100vh;
     width: 100vw;
+    min-height: 800px;
   }
 }
 
@@ -195,12 +197,11 @@ a {
   .heading_area {
     display: flex;
     flex-direction: column;
-    min-width: 680px;
+
     padding-top: 50px;
   }
   .center {
     display: flex;
-
     justify-content: space-between;
   }
 }
@@ -211,7 +212,6 @@ a {
   display: flex;
   padding: 60px 30px 40px 15px;
   justify-content: center;
-  min-width: 380px;
 }
 
 .main_watch {
@@ -260,12 +260,13 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 20px 20px;
+  width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
     flex-direction: column;
-    max-width: 100px;
+    max-width: 50px;
   }
   body {
     flex-direction: row-reverse;
