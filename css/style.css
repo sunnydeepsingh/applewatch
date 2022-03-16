@@ -17,6 +17,7 @@ body {
   font-size: 1.8rem;
   color: white;
   flex-wrap: wrap;
+  overflow: visible;
 }
 h1 {
   font-size: 3.2rem;
