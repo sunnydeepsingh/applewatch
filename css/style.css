@@ -117,6 +117,9 @@ a {
 .search_extend {
   display: none;
 }
+.nav_icon {
+  padding-right: 10px;
+}
 
 @media screen and (min-width: 1080px) {
   .nav__icon {
